@@ -32,7 +32,7 @@ const Introduction = () => {
     className='font-bold text-secondary'
     />            
     </h2>
-   <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8">
+   <p className="mx-auto mb-2 text-xl md:mx-0 md:mb-8 text-justify">
     Como experto en ciencas y tecnologia de la informacion geografica me especializo en el analisis de datos espaciales y desarrollo de aplicaciones
     enfocadas a la experiencia del usuario.
    </p>
