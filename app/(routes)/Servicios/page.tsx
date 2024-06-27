@@ -3,6 +3,7 @@ import AvatarServices from '@/components/AvatarServices';
 import CircleImage from '@/components/CircleImage';
 import SliderServices from '@/components/SliderServices';
 import TransitionPages from '@/components/TransitionPages';
+import Container from '@/components/Container';
 const page = () => {
     const sendMessage = ()=>{
         const Telefono = "95348921"
@@ -12,11 +13,11 @@ const page = () => {
           window.open(url); 
       };
   return (
-    <>
+    <Container>
     <TransitionPages/>
     <CircleImage/>
     <AvatarServices/>
-    <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2 mt-25">
+    <div className="grid items-center justify-center h-screen max-w-5xl gap-6 mx-auto md:grid-cols-2">
     <div className="max-w-[450px]">
     <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5 md:px-20">
         Mis {''}
@@ -24,7 +25,7 @@ const page = () => {
          Servicios.
         </span>
     </h1>
-    <p className="mb-3 text-xl text-gray-300">
+    <p className="mb-3 text-xl text-gray-300 text-justify">
         Ofrezco servicios de analisis, edicion y creacion de datos espaciales, administracion de base de datos espaciales, 
         analisis de datos y creacion de visualizadores enfocada en datos y desarrollo web full stack en un esquema basado 
         Javascript en el backend con NestJS y supabase o el uso de CMS como strapi y en el cliente el uso de React con NextJS.
@@ -37,7 +38,7 @@ const page = () => {
     <SliderServices/>
     </div>
     </div>
-    </>
+    </Container>
   )
 }
 export default page;
