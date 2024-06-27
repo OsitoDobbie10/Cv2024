@@ -210,4 +210,4 @@ export const dataTestimonials = [
         imageUrl: "/Fotogametria.webp",
     }
 
-];  
+];   
