@@ -1,4 +1,5 @@
 import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Facebook,Rss, Twitch, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { title } from "process";
 
 export const socialNetworks = [
     {
@@ -171,6 +172,13 @@ export const dataPortfolio = [
         image: "/MovieYT.png",
         urlGithub: "https://github.com/OsitoDobbie10/MoviesYT_APP_React",
         urlDemo: "https://superb-sunburst-bdc8cf.netlify.app/",
+    },
+    {
+        id:4,
+        title:"Aplicacion de monitoreo SQL InCMS",
+        image:"/Web4.PNG",
+        urlGithub:"https://github.com/OsitoDobbie10/pasebatch-hn",
+        urlDemo:"https://vistapasebatch.netlify.app/"
     }
 ];
 
