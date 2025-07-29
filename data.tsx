@@ -82,7 +82,7 @@ export const dataAboutPage = [
     },
     {
         id: 4,
-        title: "Técnico GIs1",
+        title: "Técnico GIS1",
         subtitle: "INE censo nacional agropecuario y vivienda",
         description: "Supervisor en la actualización cartográfica por municipios para la carga y distribución de aplicaciones móvil para cuadrillas de actualización, Creación de herramientas de automatización de digitalización con Python y ModelBuilder",
         date: "2024",
@@ -92,7 +92,7 @@ export const dataAboutPage = [
         title: "Operador Pase Batch",
         subtitle: "ENEE Distribucion",
         description: `Operador de proceso de facturación y recepción de datos en el cobro de energía eléctrica a nivel nacional, Creación de aplicaciones de visualización de los indicadores de a base de datos usando NestJS en el backend y React en el frontEnd conectando a la base de datos de producción de Oracle de UTCD, Monitoreo SQL en la ejecución de pase batch inCMS.`,
-        date: "ACTUALIDAD",
+        date: "Julio 2025",
     }
 
 ]
