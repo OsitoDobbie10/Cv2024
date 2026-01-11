@@ -64,35 +64,42 @@ export const dataAboutPage = [
         title: "Analista GIS",
         subtitle: "TICO CONSULTORES DE INGENERIA Y TOPOGRAFIA",
         description: "Analista SIG en el proyecto reubicación de personas afectadas por los huracanes ETA, IOTA mapeode zonas inundadas con imágenes de RADAR, Fotogrametría obtención en campo vuelo de Drone apoyado con GPS de precisión y productos de interés para la identificación de los zonas de reubicación de las personas afectadas.",
-        date: "2021",
+        date: "Feberero 2021-Mayo 2021",
     },
     {
         id: 2,
         title: "Analista y desarrollador GIS",
         subtitle: "INGENERIA GERENCIAL",
         description: `Analista SIG en el departamento de GIS de ingeniería gerencial y desarrollador en la creación de publicaciones de mapas web con tecnología ESRI en un sistema portal de servicios Enterprise de ArcGIS usando las tecnologías esenciales y api de JavaScript, Procesamiento de imágenes de drones con el software Pix4di Mapper y Matic, Automatización de procesos con ARCPY en ARCGISPRO, Creación de caja de herramientas para procesamiento de gran volumen de datos`,
-        date: "2022-2023",
+        date: "Junio 2022-Junio 2023",
     },
     {
         id: 3,
         title: "Dibujante y supervisor de construcción",
         subtitle: "TEKCOM",
         description: "Creación de planos de instalación de fibra óptica, aplicaciones enfocadas en coordenadas para visualización de zonas de interés, aplicaciones web de mapas para toma de daciones",
-        date: "2023",
+        date: "Agosto 2023-Octubre 2023",
     },
     {
         id: 4,
         title: "Técnico GIS1",
         subtitle: "INE censo nacional agropecuario y vivienda",
         description: "Supervisor en la actualización cartográfica por municipios para la carga y distribución de aplicaciones móvil para cuadrillas de actualización, Creación de herramientas de automatización de digitalización con Python y ModelBuilder",
-        date: "2024",
+        date: "Noviembre 2023- Mayo 2024",
     },
     {
         id: 5,
-        title: "Operador Pase Batch",
-        subtitle: "ENEE Distribucion",
-        description: `Operador de proceso de facturación y recepción de datos en el cobro de energía eléctrica a nivel nacional, Creación de aplicaciones de visualización de los indicadores de a base de datos usando NestJS en el backend y React en el frontEnd conectando a la base de datos de producción de Oracle de UTCD, Monitoreo SQL en la ejecución de pase batch inCMS.`,
-        date: "Julio 2025 ",
+        title: "Operador Servicios Comerciales",
+        subtitle: "ENEE Distribucion UTCD",
+        description: `Operador de proceso de facturación y recepción de datos en el cobro de energía eléctrica a nivel nacional, monitoreo SQL, Creación de aplicaciones de visualización de los indicadores de a base de datos usando NestJS en el backend y React en el frontEnd conectando a la base de datos de producción de Oracle de UTCD, Monitoreo SQL en la ejecución de pase batch inCMS, creacion de aplicaciones de escritorio con python PYQT6, Pandas, docxs y oraclecsx.`,
+        date: "Marzo 2024-Actualidad",
+    },
+    {
+        id: 6,
+        title: "Tecnico Mantenimiento Catastral",
+        subtitle: "Gerencia de catastro AMDC",
+        description: `Tecnico sectores urbanos catastro AMDC sector 01, 06, 10, 12, 13, 17, 19, 20, 25, 27 y 29 avaluo catastral de bienes inmuebles como lotes baldios, Uso Mixto, propiedad Horizontal, Uso de Autocad, QGIS y Arcgis Pro`,
+        date: "Junio 2024-Enero 2026 ",
     }
 
 ]
@@ -100,21 +107,21 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 3,
+        endCounter: 4,
         text: "Años de experiencia",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 15,
+        endCounter: 200,
         text: "Clientes satisfechos",
         lineRight: true,
         lineRightMobile: false,
     },
     {
         id: 2,
-        endCounter: 20,
+        endCounter: 40,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
@@ -149,6 +156,11 @@ export const serviceData = [
         title: "Analisis de datos",
         description: "Analisis, representacion y almancenamiento de datos, depuracion y limpieza de datos, analisis estadistico y modelo de datos SQL ",
     },
+    {
+        icon: <Rocket />,
+        title: "Business Intelligence,
+        description: "Programacion Python enfocado a datos, SQL, power Bi con DAX y computacion en la nube",
+    }
 ];
 
 export const dataPortfolio = [
@@ -175,7 +187,7 @@ export const dataPortfolio = [
     },
     {
         id:4,
-        title:"Aplicacion de monitoreo SQL InCMS",
+        title:"Aplicacion de monitoreo SQL InCMS solo Vista Front primera version",
         image:"/Web4.PNG",
         urlGithub:"https://github.com/OsitoDobbie10/pasebatch-hn",
         urlDemo:"https://vistapasebatch.netlify.app/"
