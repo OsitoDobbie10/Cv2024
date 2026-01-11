@@ -158,7 +158,7 @@ export const serviceData = [
     },
     {
         icon: <Rocket />,
-        title: "Business Intelligence,
+        title: "Business Intelligence",
         description: "Programacion Python enfocado a datos, SQL, power Bi con DAX y computacion en la nube",
     }
 ];
